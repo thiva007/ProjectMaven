@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups> <run><exclude name="smoke"></exclude></run></groups>
+    <classes>
+      <class name="com.maven.in.GRPtest2"/>
+      <class name="com.maven.in.GRPtest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

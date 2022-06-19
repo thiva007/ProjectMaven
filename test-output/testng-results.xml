@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114" started-at="2022-04-25T08:26:38Z" finished-at="2022-04-25T08:26:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114" started-at="2022-04-25T08:26:38Z" finished-at="2022-04-25T08:26:39Z">
+      <class name="com.maven.in.Parallel1">
+        <test-method status="PASS" signature="tc3()[pri:0, instance:com.maven.in.Parallel1@343f4d3d]" name="tc3" duration-ms="31" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:com.maven.in.Parallel1@343f4d3d]" name="tc2" duration-ms="31" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:com.maven.in.Parallel1@343f4d3d]" name="tc1" duration-ms="34" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- com.maven.in.Parallel1 -->
+      <class name="com.maven.in.Parallel2">
+        <test-method status="PASS" signature="tc100()[pri:0, instance:com.maven.in.Parallel2@53b32d7]" name="tc100" duration-ms="31" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc100 -->
+        <test-method status="PASS" signature="tc200()[pri:0, instance:com.maven.in.Parallel2@53b32d7]" name="tc200" duration-ms="0" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc200 -->
+        <test-method status="PASS" signature="tc300()[pri:0, instance:com.maven.in.Parallel2@53b32d7]" name="tc300" duration-ms="0" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc300 -->
+      </class> <!-- com.maven.in.Parallel2 -->
+      <class name="com.maven.in.Parallel3">
+        <test-method status="PASS" signature="tc1000()[pri:0, instance:com.maven.in.Parallel3@5442a311]" name="tc1000" duration-ms="0" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1000 -->
+        <test-method status="PASS" signature="tc2000()[pri:0, instance:com.maven.in.Parallel3@5442a311]" name="tc2000" duration-ms="0" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2000 -->
+        <test-method status="PASS" signature="tc3000()[pri:0, instance:com.maven.in.Parallel3@5442a311]" name="tc3000" duration-ms="0" started-at="2022-04-25T08:26:39Z" finished-at="2022-04-25T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3000 -->
+      </class> <!-- com.maven.in.Parallel3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
